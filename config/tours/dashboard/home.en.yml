@@ -1,0 +1,23 @@
+intro:
+  steps:
+    1:
+      title: "Welcome to the abraham example app!"
+      text: "Because this step has no 'attachTo' config, it will appear centered on the page."
+    2:
+      title: "This is the first element"
+      text: "Pack my box with five dozen liquor jugs."
+      attachTo:
+        element: "#first"
+        placement: "bottom"
+    3:
+      title: "The second element, perhaps?"
+      text: "The five boxing wizards jump quickly."
+      attachTo:
+        element: ".second"
+        placement: "bottom"
+    4:
+      title: "Element: The Third"
+      text: "How vexingly quick daft zebras jump!"
+      attachTo:
+        element: "#third"
+        placement: "bottom"

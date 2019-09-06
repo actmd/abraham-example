@@ -1,0 +1,33 @@
+/*
+ *= require "shepherd.js/dist/css/shepherd-theme-default"
+ *= require_tree .
+ *= require_self
+ */
+
+.tippy-arrow { z-index: 1; }
+
+body {
+  margin: 0;
+  padding: 3rem;
+  font-family: sans-serif;
+}
+
+body h1 {
+  margin: 0 0 1em;
+}
+
+.elements {
+  display: flex;
+  width: 100%;
+}
+
+.elements > * {
+  flex: 1;
+  height: 5rem;
+  padding: 1rem;
+  background-color: rgba(33,66,99,0.4);
+}
+
+.elements > * + * {
+  margin-left: 2rem;
+}
