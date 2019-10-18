@@ -8,16 +8,16 @@ intro:
       text: "Pack my box with five dozen liquor jugs."
       attachTo:
         element: "#first"
-        placement: "bottom"
+        placement: "right"
     3:
       title: "The second element, perhaps?"
       text: "The five boxing wizards jump quickly."
       attachTo:
         element: ".second"
-        placement: "bottom"
+        placement: "right"
     4:
       title: "Element: The Third"
       text: "How vexingly quick daft zebras jump!"
       attachTo:
         element: "#third"
-        placement: "bottom"
+        placement: "left"
